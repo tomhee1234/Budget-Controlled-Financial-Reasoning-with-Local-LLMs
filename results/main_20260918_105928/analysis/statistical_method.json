@@ -1,0 +1,10 @@
+{
+  "unit": "task_id",
+  "repetitions": "averaged within task after pairing",
+  "bootstrap_draws": 5000,
+  "bootstrap_seed": 42,
+  "interval": "pointwise percentile 95%",
+  "minimum_tasks_for_interval": 5,
+  "multiplicity": "Intervals are descriptive pointwise intervals, not simultaneous hypothesis tests.",
+  "scope": "Inference within the supplied task templates; not all financial reasoning."
+}

@@ -1,0 +1,16 @@
+# virtual environments and caches
+.venv/
+.venv-run/
+.matplotlib/
+__pycache__/
+*.pyc
+.DS_Store
+
+# model files are downloaded by scripts/download_models.py (hashes in models/manifest.json)
+models/*.gguf
+models/*.part
+
+# runtime files of new runs
+results/active_*.json
+results/servers_*/
+results/*/runner.lock

@@ -1,0 +1,30 @@
+[
+  {
+    "text": "A portfolio has an expected annual return of 10.40%, a standard deviation of 24.55%, and the risk-free rate is 2.96%. Calculate the Sharpe Ratio.",
+    "ground_truth": 0.3031,
+    "type": "sharpe_ratio",
+    "id": "sharpe_ratio_001",
+    "difficulty": "einfach"
+  },
+  {
+    "text": "An investor allocates 73% of a portfolio to Asset A (expected return 5.38%) and 27% to Asset B (expected return 5.07%). Calculate the expected portfolio return as a decimal (e.g. 0.05 for 5%).",
+    "ground_truth": 0.053,
+    "type": "portfolio_return",
+    "id": "portfolio_return_002",
+    "difficulty": "einfach"
+  },
+  {
+    "text": "Asset A has a standard deviation of 8.57% and Asset B has a standard deviation of 14.32%. The covariance between the two assets is -0.003793. Calculate the correlation coefficient between A and B.",
+    "ground_truth": -0.30907153054373127,
+    "type": "correlation",
+    "id": "correlation_003",
+    "difficulty": "mittel"
+  },
+  {
+    "text": "A stock traded at $140.88 at the start of the year and at $167.38 at the end of the year (no dividends paid). The annualized standard deviation of returns is 10.99% and the risk-free rate is 1.42%. First calculate the annual return, then calculate the Sharpe Ratio.",
+    "ground_truth": 1.5823780743321973,
+    "type": "multi_step_sharpe",
+    "id": "multi_step_sharpe_004",
+    "difficulty": "mehrstufig"
+  }
+]

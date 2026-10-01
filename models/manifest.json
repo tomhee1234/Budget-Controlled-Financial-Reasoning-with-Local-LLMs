@@ -1,0 +1,14 @@
+{
+  "repo": "Qwen/Qwen3-8B-GGUF",
+  "revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+  "files": {
+    "Qwen3-8B-Q4_K_M.gguf": {
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "size": 5027783488
+    },
+    "Qwen3-8B-Q8_0.gguf": {
+      "sha256": "408b955510e196121c1c375201744783b5c9a43c7956d73fc78df54c66e883d6",
+      "size": 8709518112
+    }
+  }
+}

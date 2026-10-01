@@ -1,0 +1,315 @@
+{
+  "score_basis": "Original recorded scores; parser differences are listed separately.",
+  "parser_differences": [
+    {
+      "quantization": "Q4_K_M",
+      "task_id": "correlation_003",
+      "condition": "B_free",
+      "recorded": null,
+      "current_parser": -0.3091
+    },
+    {
+      "quantization": "Q8_0",
+      "task_id": "multi_step_sharpe_004",
+      "condition": "B_free",
+      "recorded": null,
+      "current_parser": 1.58
+    }
+  ],
+  "trials": 96,
+  "unique_trials": 96,
+  "cde_groups": 24,
+  "cde_identical_reasoning": 24,
+  "cde_trace_checks": [
+    {
+      "group": [
+        "Q4_K_M",
+        "correlation_003",
+        0,
+        256
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q4_K_M",
+        "correlation_003",
+        0,
+        512
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q4_K_M",
+        "correlation_003",
+        0,
+        1024
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q4_K_M",
+        "multi_step_sharpe_004",
+        0,
+        256
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q4_K_M",
+        "multi_step_sharpe_004",
+        0,
+        512
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q4_K_M",
+        "multi_step_sharpe_004",
+        0,
+        1024
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q4_K_M",
+        "portfolio_return_002",
+        0,
+        256
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q4_K_M",
+        "portfolio_return_002",
+        0,
+        512
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q4_K_M",
+        "portfolio_return_002",
+        0,
+        1024
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q4_K_M",
+        "sharpe_ratio_001",
+        0,
+        256
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q4_K_M",
+        "sharpe_ratio_001",
+        0,
+        512
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q4_K_M",
+        "sharpe_ratio_001",
+        0,
+        1024
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q8_0",
+        "correlation_003",
+        0,
+        256
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q8_0",
+        "correlation_003",
+        0,
+        512
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q8_0",
+        "correlation_003",
+        0,
+        1024
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q8_0",
+        "multi_step_sharpe_004",
+        0,
+        256
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q8_0",
+        "multi_step_sharpe_004",
+        0,
+        512
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q8_0",
+        "multi_step_sharpe_004",
+        0,
+        1024
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q8_0",
+        "portfolio_return_002",
+        0,
+        256
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q8_0",
+        "portfolio_return_002",
+        0,
+        512
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q8_0",
+        "portfolio_return_002",
+        0,
+        1024
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q8_0",
+        "sharpe_ratio_001",
+        0,
+        256
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q8_0",
+        "sharpe_ratio_001",
+        0,
+        512
+      ],
+      "same_reasoning": true
+    },
+    {
+      "group": [
+        "Q8_0",
+        "sharpe_ratio_001",
+        0,
+        1024
+      ],
+      "same_reasoning": true
+    }
+  ],
+  "free_reasoning": [
+    {
+      "quantization": "Q4_K_M",
+      "task": "multi_step_sharpe_004",
+      "tokens": 3840,
+      "stop": "eos",
+      "correct": true,
+      "answer_present": true,
+      "safety_limit": false
+    },
+    {
+      "quantization": "Q4_K_M",
+      "task": "sharpe_ratio_001",
+      "tokens": 5957,
+      "stop": "eos",
+      "correct": true,
+      "answer_present": true,
+      "safety_limit": false
+    },
+    {
+      "quantization": "Q4_K_M",
+      "task": "correlation_003",
+      "tokens": 8526,
+      "stop": "eos",
+      "correct": false,
+      "answer_present": false,
+      "safety_limit": false
+    },
+    {
+      "quantization": "Q4_K_M",
+      "task": "portfolio_return_002",
+      "tokens": 7545,
+      "stop": "eos",
+      "correct": true,
+      "answer_present": true,
+      "safety_limit": false
+    },
+    {
+      "quantization": "Q8_0",
+      "task": "multi_step_sharpe_004",
+      "tokens": 7921,
+      "stop": "eos",
+      "correct": false,
+      "answer_present": false,
+      "safety_limit": false
+    },
+    {
+      "quantization": "Q8_0",
+      "task": "sharpe_ratio_001",
+      "tokens": 7359,
+      "stop": "eos",
+      "correct": true,
+      "answer_present": true,
+      "safety_limit": false
+    },
+    {
+      "quantization": "Q8_0",
+      "task": "correlation_003",
+      "tokens": 10124,
+      "stop": "eos",
+      "correct": true,
+      "answer_present": true,
+      "safety_limit": false
+    },
+    {
+      "quantization": "Q8_0",
+      "task": "portfolio_return_002",
+      "tokens": 6636,
+      "stop": "eos",
+      "correct": true,
+      "answer_present": true,
+      "safety_limit": false
+    }
+  ]
+}

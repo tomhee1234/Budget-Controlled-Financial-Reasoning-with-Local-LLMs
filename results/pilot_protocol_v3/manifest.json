@@ -1,0 +1,123 @@
+{
+  "identity": {
+    "schema": 3,
+    "tasks": [
+      {
+        "text": "A portfolio has an expected annual return of 10.40%, a standard deviation of 24.55%, and the risk-free rate is 2.96%. Calculate the Sharpe Ratio.",
+        "ground_truth": 0.3031,
+        "type": "sharpe_ratio",
+        "id": "sharpe_ratio_001",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "An investor allocates 73% of a portfolio to Asset A (expected return 5.38%) and 27% to Asset B (expected return 5.07%). Calculate the expected portfolio return as a decimal (e.g. 0.05 for 5%).",
+        "ground_truth": 0.053,
+        "type": "portfolio_return",
+        "id": "portfolio_return_002",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "Asset A has a standard deviation of 8.57% and Asset B has a standard deviation of 14.32%. The covariance between the two assets is -0.003793. Calculate the correlation coefficient between A and B.",
+        "ground_truth": -0.30907153054373127,
+        "type": "correlation",
+        "id": "correlation_003",
+        "difficulty": "mittel"
+      },
+      {
+        "text": "A stock traded at $140.88 at the start of the year and at $167.38 at the end of the year (no dividends paid). The annualized standard deviation of returns is 10.99% and the risk-free rate is 1.42%. First calculate the annual return, then calculate the Sharpe Ratio.",
+        "ground_truth": 1.5823780743321973,
+        "type": "multi_step_sharpe",
+        "id": "multi_step_sharpe_004",
+        "difficulty": "mehrstufig"
+      }
+    ],
+    "repetitions": 1,
+    "mock": false,
+    "selected_conditions": [
+      "A_direct",
+      "B_free",
+      "C_fixed_budget256",
+      "D_generic_budget256",
+      "E_financial_budget256",
+      "C_fixed_budget512",
+      "D_generic_budget512",
+      "E_financial_budget512",
+      "C_fixed_budget1024",
+      "D_generic_budget1024",
+      "E_financial_budget1024",
+      "F_adaptive"
+    ],
+    "settings": {
+      "QUANTIZATIONS": [
+        {
+          "label": "Q4_K_M",
+          "server_url": "http://127.0.0.1:8080",
+          "repeat_penalty": 1.0
+        },
+        {
+          "label": "Q8_0",
+          "server_url": "http://127.0.0.1:8081",
+          "repeat_penalty": 1.0
+        }
+      ],
+      "FIXED_BUDGETS": [
+        256,
+        512,
+        1024
+      ],
+      "ADAPTIVE_START_BUDGET": 256,
+      "ADAPTIVE_EXTENSION": 256,
+      "ADAPTIVE_MAX_EXTENSIONS": 1,
+      "FREE_REASONING_BUDGET": 16384,
+      "SERVER_CONTEXT": 32768,
+      "FINAL_ANSWER_BUDGET": 200,
+      "FINAL_ANSWER_BUDGET_INTERVENTION": 200,
+      "REPETITIONS": 2,
+      "TEMPERATURE": 0.6,
+      "TOP_P": 0.95,
+      "REPEAT_PENALTY_DEFAULT": 1.0,
+      "TOP_K": 20,
+      "MIN_P": 0.0,
+      "SEED": 42,
+      "TOLERANCE": 0.01
+    },
+    "sources": {
+      "analyze_results.py": "e2fafccf677040081ac1285268a5afc27f345a3f5307ff53a5a62ff302b82f1b",
+      "compare_conditions.py": "5b88af00a1a79c6f3cec7ae308987a7101a1f2d45d1413af9882d6bc108d155b",
+      "conditions.py": "d2afbf9ebfc16b630766867899feacea9285d35c9c6293db4e39a77a616810d4",
+      "config.py": "e3d34d03d6cfa45a96bb3f838ccbfcee016eb857f4ee737ce7e6ac4155374a2f",
+      "llm_client.py": "7ae4fe5373b31fa4c54f3e303b5bc37205e66968e68a6bec0b323fdecdb9daba",
+      "metrics.py": "cb18350950e9b9a8ac7f5df782d278a3e8c7a89e1629530943c7348442e818f8",
+      "mock_client.py": "2de65a8ef814ed01f254df8197d4a5936d49224682d874fa94c63d60ef2f4e9d",
+      "run_experiment.py": "5435c577f2b4ddf20ed9420f817dd086bbd56d6db21602dd574e235726978a32",
+      "study_analysis.py": "008ac80b7c7ce9b8ed0ffbdfc45f15ddf8950cff5a38612da04bc3f6cf7e71cd",
+      "task_generator.py": "b1f2550c6b4bcf1a27441bc098893b28b7381b31f2f02badbebcda2d0c9f2290"
+    },
+    "environment": {
+      "python": "3.13.15",
+      "packages": {
+        "requests": "2.34.2",
+        "pandas": "3.0.5",
+        "numpy": "2.5.3",
+        "matplotlib": "3.11.2"
+      }
+    },
+    "models": {
+      "repo": "Qwen/Qwen3-8B-GGUF",
+      "revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "files": {
+        "Qwen3-8B-Q4_K_M.gguf": {
+          "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+          "size": 5027783488
+        },
+        "Qwen3-8B-Q8_0.gguf": {
+          "sha256": "408b955510e196121c1c375201744783b5c9a43c7956d73fc78df54c66e883d6",
+          "size": 8709518112
+        }
+      }
+    }
+  },
+  "created_utc": "2026-09-17T11:38:44.329128+00:00",
+  "python": "3.13.15",
+  "expected_results": 96
+}

@@ -1,0 +1,515 @@
+{
+  "identity": {
+    "schema": 3,
+    "tasks": [
+      {
+        "text": "A portfolio has an expected annual return of 10.67%, a standard deviation of 10.50%, and the risk-free rate is 1.08%. Calculate the Sharpe Ratio.",
+        "ground_truth": 0.9133,
+        "type": "sharpe_ratio",
+        "id": "sharpe_ratio_001",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "A portfolio has an expected annual return of 5.68%, a standard deviation of 18.53%, and the risk-free rate is 3.21%. Calculate the Sharpe Ratio.",
+        "ground_truth": 0.1333,
+        "type": "sharpe_ratio",
+        "id": "sharpe_ratio_002",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "A portfolio has an expected annual return of 13.71%, a standard deviation of 13.44%, and the risk-free rate is 1.26%. Calculate the Sharpe Ratio.",
+        "ground_truth": 0.9263,
+        "type": "sharpe_ratio",
+        "id": "sharpe_ratio_003",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "A portfolio has an expected annual return of 3.36%, a standard deviation of 15.11%, and the risk-free rate is 1.66%. Calculate the Sharpe Ratio.",
+        "ground_truth": 0.1125,
+        "type": "sharpe_ratio",
+        "id": "sharpe_ratio_004",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "A portfolio has an expected annual return of 3.32%, a standard deviation of 18.00%, and the risk-free rate is 1.60%. Calculate the Sharpe Ratio.",
+        "ground_truth": 0.0956,
+        "type": "sharpe_ratio",
+        "id": "sharpe_ratio_005",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "A portfolio has an expected annual return of 9.54%, a standard deviation of 16.79%, and the risk-free rate is 1.66%. Calculate the Sharpe Ratio.",
+        "ground_truth": 0.4693,
+        "type": "sharpe_ratio",
+        "id": "sharpe_ratio_006",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "A portfolio has an expected annual return of 12.71%, a standard deviation of 21.12%, and the risk-free rate is 1.02%. Calculate the Sharpe Ratio.",
+        "ground_truth": 0.5535,
+        "type": "sharpe_ratio",
+        "id": "sharpe_ratio_007",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "A portfolio has an expected annual return of 11.38%, a standard deviation of 8.11%, and the risk-free rate is 2.02%. Calculate the Sharpe Ratio.",
+        "ground_truth": 1.1541,
+        "type": "sharpe_ratio",
+        "id": "sharpe_ratio_008",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "A portfolio has an expected annual return of 14.49%, a standard deviation of 6.85%, and the risk-free rate is 2.01%. Calculate the Sharpe Ratio.",
+        "ground_truth": 1.8219,
+        "type": "sharpe_ratio",
+        "id": "sharpe_ratio_009",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "A portfolio has an expected annual return of 4.16%, a standard deviation of 17.07%, and the risk-free rate is 3.54%. Calculate the Sharpe Ratio.",
+        "ground_truth": 0.0363,
+        "type": "sharpe_ratio",
+        "id": "sharpe_ratio_010",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "A portfolio has an expected annual return of 12.69%, a standard deviation of 15.72%, and the risk-free rate is 3.19%. Calculate the Sharpe Ratio.",
+        "ground_truth": 0.6043,
+        "type": "sharpe_ratio",
+        "id": "sharpe_ratio_011",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "A portfolio has an expected annual return of 14.68%, a standard deviation of 16.04%, and the risk-free rate is 2.14%. Calculate the Sharpe Ratio.",
+        "ground_truth": 0.7818,
+        "type": "sharpe_ratio",
+        "id": "sharpe_ratio_012",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "A portfolio has an expected annual return of 12.95%, a standard deviation of 22.23%, and the risk-free rate is 2.86%. Calculate the Sharpe Ratio.",
+        "ground_truth": 0.4539,
+        "type": "sharpe_ratio",
+        "id": "sharpe_ratio_013",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "A portfolio has an expected annual return of 9.93%, a standard deviation of 5.92%, and the risk-free rate is 3.11%. Calculate the Sharpe Ratio.",
+        "ground_truth": 1.152,
+        "type": "sharpe_ratio",
+        "id": "sharpe_ratio_014",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "A portfolio has an expected annual return of 5.73%, a standard deviation of 6.60%, and the risk-free rate is 1.87%. Calculate the Sharpe Ratio.",
+        "ground_truth": 0.5848,
+        "type": "sharpe_ratio",
+        "id": "sharpe_ratio_015",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "An investor allocates 34% of a portfolio to Asset A (expected return 3.31%) and 66% to Asset B (expected return 5.61%). Calculate the expected portfolio return as a decimal (e.g. 0.05 for 5%).",
+        "ground_truth": 0.0483,
+        "type": "portfolio_return",
+        "id": "portfolio_return_016",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "An investor allocates 58% of a portfolio to Asset A (expected return 6.74%) and 42% to Asset B (expected return 6.81%). Calculate the expected portfolio return as a decimal (e.g. 0.05 for 5%).",
+        "ground_truth": 0.0677,
+        "type": "portfolio_return",
+        "id": "portfolio_return_017",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "An investor allocates 33% of a portfolio to Asset A (expected return 5.47%) and 67% to Asset B (expected return 14.18%). Calculate the expected portfolio return as a decimal (e.g. 0.05 for 5%).",
+        "ground_truth": 0.1131,
+        "type": "portfolio_return",
+        "id": "portfolio_return_018",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "An investor allocates 59% of a portfolio to Asset A (expected return 9.92%) and 41% to Asset B (expected return 4.22%). Calculate the expected portfolio return as a decimal (e.g. 0.05 for 5%).",
+        "ground_truth": 0.0758,
+        "type": "portfolio_return",
+        "id": "portfolio_return_019",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "An investor allocates 64% of a portfolio to Asset A (expected return 4.12%) and 36% to Asset B (expected return 6.93%). Calculate the expected portfolio return as a decimal (e.g. 0.05 for 5%).",
+        "ground_truth": 0.0513,
+        "type": "portfolio_return",
+        "id": "portfolio_return_020",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "An investor allocates 79% of a portfolio to Asset A (expected return 10.32%) and 21% to Asset B (expected return 9.24%). Calculate the expected portfolio return as a decimal (e.g. 0.05 for 5%).",
+        "ground_truth": 0.1009,
+        "type": "portfolio_return",
+        "id": "portfolio_return_021",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "An investor allocates 61% of a portfolio to Asset A (expected return 12.96%) and 39% to Asset B (expected return 12.09%). Calculate the expected portfolio return as a decimal (e.g. 0.05 for 5%).",
+        "ground_truth": 0.1262,
+        "type": "portfolio_return",
+        "id": "portfolio_return_022",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "An investor allocates 34% of a portfolio to Asset A (expected return 2.42%) and 66% to Asset B (expected return 6.10%). Calculate the expected portfolio return as a decimal (e.g. 0.05 for 5%).",
+        "ground_truth": 0.0485,
+        "type": "portfolio_return",
+        "id": "portfolio_return_023",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "An investor allocates 36% of a portfolio to Asset A (expected return 4.74%) and 64% to Asset B (expected return 14.26%). Calculate the expected portfolio return as a decimal (e.g. 0.05 for 5%).",
+        "ground_truth": 0.1083,
+        "type": "portfolio_return",
+        "id": "portfolio_return_024",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "An investor allocates 73% of a portfolio to Asset A (expected return 6.09%) and 27% to Asset B (expected return 10.52%). Calculate the expected portfolio return as a decimal (e.g. 0.05 for 5%).",
+        "ground_truth": 0.0729,
+        "type": "portfolio_return",
+        "id": "portfolio_return_025",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "An investor allocates 44% of a portfolio to Asset A (expected return 13.89%) and 56% to Asset B (expected return 7.97%). Calculate the expected portfolio return as a decimal (e.g. 0.05 for 5%).",
+        "ground_truth": 0.1057,
+        "type": "portfolio_return",
+        "id": "portfolio_return_026",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "An investor allocates 36% of a portfolio to Asset A (expected return 5.21%) and 64% to Asset B (expected return 9.30%). Calculate the expected portfolio return as a decimal (e.g. 0.05 for 5%).",
+        "ground_truth": 0.0783,
+        "type": "portfolio_return",
+        "id": "portfolio_return_027",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "An investor allocates 36% of a portfolio to Asset A (expected return 9.60%) and 64% to Asset B (expected return 13.67%). Calculate the expected portfolio return as a decimal (e.g. 0.05 for 5%).",
+        "ground_truth": 0.122,
+        "type": "portfolio_return",
+        "id": "portfolio_return_028",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "An investor allocates 44% of a portfolio to Asset A (expected return 4.85%) and 56% to Asset B (expected return 14.97%). Calculate the expected portfolio return as a decimal (e.g. 0.05 for 5%).",
+        "ground_truth": 0.1052,
+        "type": "portfolio_return",
+        "id": "portfolio_return_029",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "An investor allocates 51% of a portfolio to Asset A (expected return 3.18%) and 49% to Asset B (expected return 2.61%). Calculate the expected portfolio return as a decimal (e.g. 0.05 for 5%).",
+        "ground_truth": 0.029,
+        "type": "portfolio_return",
+        "id": "portfolio_return_030",
+        "difficulty": "einfach"
+      },
+      {
+        "text": "Asset A has a standard deviation of 7.74% and Asset B has a standard deviation of 20.69%. The covariance between the two assets is 0.008419. Calculate the correlation coefficient between A and B.",
+        "ground_truth": 0.5257255187004419,
+        "type": "correlation",
+        "id": "correlation_031",
+        "difficulty": "mittel"
+      },
+      {
+        "text": "Asset A has a standard deviation of 15.55% and Asset B has a standard deviation of 6.59%. The covariance between the two assets is -0.002184. Calculate the correlation coefficient between A and B.",
+        "ground_truth": -0.2131261923698091,
+        "type": "correlation",
+        "id": "correlation_032",
+        "difficulty": "mittel"
+      },
+      {
+        "text": "Asset A has a standard deviation of 29.90% and Asset B has a standard deviation of 18.23%. The covariance between the two assets is 0.046217. Calculate the correlation coefficient between A and B.",
+        "ground_truth": 0.8478985537823098,
+        "type": "correlation",
+        "id": "correlation_033",
+        "difficulty": "mittel"
+      },
+      {
+        "text": "Asset A has a standard deviation of 26.52% and Asset B has a standard deviation of 5.29%. The covariance between the two assets is 0.005574. Calculate the correlation coefficient between A and B.",
+        "ground_truth": 0.3973175717866032,
+        "type": "correlation",
+        "id": "correlation_034",
+        "difficulty": "mittel"
+      },
+      {
+        "text": "Asset A has a standard deviation of 22.04% and Asset B has a standard deviation of 18.42%. The covariance between the two assets is -0.017039. Calculate the correlation coefficient between A and B.",
+        "ground_truth": -0.4197037860291523,
+        "type": "correlation",
+        "id": "correlation_035",
+        "difficulty": "mittel"
+      },
+      {
+        "text": "Asset A has a standard deviation of 21.02% and Asset B has a standard deviation of 7.79%. The covariance between the two assets is -0.001922. Calculate the correlation coefficient between A and B.",
+        "ground_truth": -0.11737705638862188,
+        "type": "correlation",
+        "id": "correlation_036",
+        "difficulty": "mittel"
+      },
+      {
+        "text": "Asset A has a standard deviation of 16.34% and Asset B has a standard deviation of 28.85%. The covariance between the two assets is 0.031891. Calculate the correlation coefficient between A and B.",
+        "ground_truth": 0.6765038427352895,
+        "type": "correlation",
+        "id": "correlation_037",
+        "difficulty": "mittel"
+      },
+      {
+        "text": "Asset A has a standard deviation of 11.58% and Asset B has a standard deviation of 17.51%. The covariance between the two assets is -0.011728. Calculate the correlation coefficient between A and B.",
+        "ground_truth": -0.578401288580224,
+        "type": "correlation",
+        "id": "correlation_038",
+        "difficulty": "mittel"
+      },
+      {
+        "text": "Asset A has a standard deviation of 27.82% and Asset B has a standard deviation of 26.76%. The covariance between the two assets is -0.027009. Calculate the correlation coefficient between A and B.",
+        "ground_truth": -0.36279832233480447,
+        "type": "correlation",
+        "id": "correlation_039",
+        "difficulty": "mittel"
+      },
+      {
+        "text": "Asset A has a standard deviation of 20.97% and Asset B has a standard deviation of 20.22%. The covariance between the two assets is -0.026497. Calculate the correlation coefficient between A and B.",
+        "ground_truth": -0.624909495784803,
+        "type": "correlation",
+        "id": "correlation_040",
+        "difficulty": "mittel"
+      },
+      {
+        "text": "Asset A has a standard deviation of 24.06% and Asset B has a standard deviation of 18.48%. The covariance between the two assets is 0.022298. Calculate the correlation coefficient between A and B.",
+        "ground_truth": 0.5014969790530888,
+        "type": "correlation",
+        "id": "correlation_041",
+        "difficulty": "mittel"
+      },
+      {
+        "text": "Asset A has a standard deviation of 18.26% and Asset B has a standard deviation of 5.01%. The covariance between the two assets is -0.002895. Calculate the correlation coefficient between A and B.",
+        "ground_truth": -0.3164536206885244,
+        "type": "correlation",
+        "id": "correlation_042",
+        "difficulty": "mittel"
+      },
+      {
+        "text": "Asset A has a standard deviation of 5.49% and Asset B has a standard deviation of 28.23%. The covariance between the two assets is 0.010565. Calculate the correlation coefficient between A and B.",
+        "ground_truth": 0.6816889885129115,
+        "type": "correlation",
+        "id": "correlation_043",
+        "difficulty": "mittel"
+      },
+      {
+        "text": "Asset A has a standard deviation of 25.79% and Asset B has a standard deviation of 12.69%. The covariance between the two assets is -0.026041. Calculate the correlation coefficient between A and B.",
+        "ground_truth": -0.7956914534591845,
+        "type": "correlation",
+        "id": "correlation_044",
+        "difficulty": "mittel"
+      },
+      {
+        "text": "Asset A has a standard deviation of 26.95% and Asset B has a standard deviation of 28.67%. The covariance between the two assets is -0.057625. Calculate the correlation coefficient between A and B.",
+        "ground_truth": -0.7458036009533343,
+        "type": "correlation",
+        "id": "correlation_045",
+        "difficulty": "mittel"
+      },
+      {
+        "text": "A stock traded at $114.02 at the start of the year and at $117.73 at the end of the year (no dividends paid). The annualized standard deviation of returns is 18.72% and the risk-free rate is 2.52%. First calculate the annual return, then calculate the Sharpe Ratio.",
+        "ground_truth": 0.03919952564927168,
+        "type": "multi_step_sharpe",
+        "id": "multi_step_sharpe_046",
+        "difficulty": "mehrstufig"
+      },
+      {
+        "text": "A stock traded at $88.99 at the start of the year and at $98.39 at the end of the year (no dividends paid). The annualized standard deviation of returns is 11.71% and the risk-free rate is 2.10%. First calculate the annual return, then calculate the Sharpe Ratio.",
+        "ground_truth": 0.7227143129813669,
+        "type": "multi_step_sharpe",
+        "id": "multi_step_sharpe_047",
+        "difficulty": "mehrstufig"
+      },
+      {
+        "text": "A stock traded at $141.07 at the start of the year and at $154.64 at the end of the year (no dividends paid). The annualized standard deviation of returns is 15.55% and the risk-free rate is 1.42%. First calculate the annual return, then calculate the Sharpe Ratio.",
+        "ground_truth": 0.5272886120479738,
+        "type": "multi_step_sharpe",
+        "id": "multi_step_sharpe_048",
+        "difficulty": "mehrstufig"
+      },
+      {
+        "text": "A stock traded at $131.10 at the start of the year and at $138.47 at the end of the year (no dividends paid). The annualized standard deviation of returns is 21.93% and the risk-free rate is 1.62%. First calculate the annual return, then calculate the Sharpe Ratio.",
+        "ground_truth": 0.18247436629202637,
+        "type": "multi_step_sharpe",
+        "id": "multi_step_sharpe_049",
+        "difficulty": "mehrstufig"
+      },
+      {
+        "text": "A stock traded at $125.49 at the start of the year and at $137.90 at the end of the year (no dividends paid). The annualized standard deviation of returns is 9.69% and the risk-free rate is 2.04%. First calculate the annual return, then calculate the Sharpe Ratio.",
+        "ground_truth": 0.8100344893631011,
+        "type": "multi_step_sharpe",
+        "id": "multi_step_sharpe_050",
+        "difficulty": "mehrstufig"
+      },
+      {
+        "text": "A stock traded at $95.73 at the start of the year and at $103.47 at the end of the year (no dividends paid). The annualized standard deviation of returns is 11.22% and the risk-free rate is 2.18%. First calculate the annual return, then calculate the Sharpe Ratio.",
+        "ground_truth": 0.5263137020284876,
+        "type": "multi_step_sharpe",
+        "id": "multi_step_sharpe_051",
+        "difficulty": "mehrstufig"
+      },
+      {
+        "text": "A stock traded at $95.42 at the start of the year and at $98.55 at the end of the year (no dividends paid). The annualized standard deviation of returns is 11.21% and the risk-free rate is 2.26%. First calculate the annual return, then calculate the Sharpe Ratio.",
+        "ground_truth": 0.09101112860164073,
+        "type": "multi_step_sharpe",
+        "id": "multi_step_sharpe_052",
+        "difficulty": "mehrstufig"
+      },
+      {
+        "text": "A stock traded at $143.38 at the start of the year and at $168.43 at the end of the year (no dividends paid). The annualized standard deviation of returns is 11.33% and the risk-free rate is 1.14%. First calculate the annual return, then calculate the Sharpe Ratio.",
+        "ground_truth": 1.4413994647199377,
+        "type": "multi_step_sharpe",
+        "id": "multi_step_sharpe_053",
+        "difficulty": "mehrstufig"
+      },
+      {
+        "text": "A stock traded at $126.83 at the start of the year and at $134.26 at the end of the year (no dividends paid). The annualized standard deviation of returns is 21.10% and the risk-free rate is 1.26%. First calculate the annual return, then calculate the Sharpe Ratio.",
+        "ground_truth": 0.21792584991739858,
+        "type": "multi_step_sharpe",
+        "id": "multi_step_sharpe_054",
+        "difficulty": "mehrstufig"
+      },
+      {
+        "text": "A stock traded at $119.97 at the start of the year and at $132.58 at the end of the year (no dividends paid). The annualized standard deviation of returns is 19.30% and the risk-free rate is 2.57%. First calculate the annual return, then calculate the Sharpe Ratio.",
+        "ground_truth": 0.41144876029024585,
+        "type": "multi_step_sharpe",
+        "id": "multi_step_sharpe_055",
+        "difficulty": "mehrstufig"
+      },
+      {
+        "text": "A stock traded at $93.33 at the start of the year and at $96.82 at the end of the year (no dividends paid). The annualized standard deviation of returns is 13.93% and the risk-free rate is 1.86%. First calculate the annual return, then calculate the Sharpe Ratio.",
+        "ground_truth": 0.13491882734915606,
+        "type": "multi_step_sharpe",
+        "id": "multi_step_sharpe_056",
+        "difficulty": "mehrstufig"
+      },
+      {
+        "text": "A stock traded at $112.69 at the start of the year and at $129.73 at the end of the year (no dividends paid). The annualized standard deviation of returns is 21.78% and the risk-free rate is 2.35%. First calculate the annual return, then calculate the Sharpe Ratio.",
+        "ground_truth": 0.5863695482238708,
+        "type": "multi_step_sharpe",
+        "id": "multi_step_sharpe_057",
+        "difficulty": "mehrstufig"
+      },
+      {
+        "text": "A stock traded at $86.89 at the start of the year and at $94.93 at the end of the year (no dividends paid). The annualized standard deviation of returns is 20.06% and the risk-free rate is 1.68%. First calculate the annual return, then calculate the Sharpe Ratio.",
+        "ground_truth": 0.37752136615817217,
+        "type": "multi_step_sharpe",
+        "id": "multi_step_sharpe_058",
+        "difficulty": "mehrstufig"
+      },
+      {
+        "text": "A stock traded at $97.41 at the start of the year and at $102.69 at the end of the year (no dividends paid). The annualized standard deviation of returns is 13.91% and the risk-free rate is 1.90%. First calculate the annual return, then calculate the Sharpe Ratio.",
+        "ground_truth": 0.253083253091888,
+        "type": "multi_step_sharpe",
+        "id": "multi_step_sharpe_059",
+        "difficulty": "mehrstufig"
+      },
+      {
+        "text": "A stock traded at $99.50 at the start of the year and at $105.97 at the end of the year (no dividends paid). The annualized standard deviation of returns is 14.20% and the risk-free rate is 2.85%. First calculate the annual return, then calculate the Sharpe Ratio.",
+        "ground_truth": 0.25721919456437115,
+        "type": "multi_step_sharpe",
+        "id": "multi_step_sharpe_060",
+        "difficulty": "mehrstufig"
+      }
+    ],
+    "repetitions": 2,
+    "mock": false,
+    "selected_conditions": [
+      "A_direct",
+      "B_free",
+      "C_fixed_budget256",
+      "D_generic_budget256",
+      "E_financial_budget256",
+      "C_fixed_budget512",
+      "D_generic_budget512",
+      "E_financial_budget512",
+      "C_fixed_budget1024",
+      "D_generic_budget1024",
+      "E_financial_budget1024",
+      "F_adaptive"
+    ],
+    "settings": {
+      "QUANTIZATIONS": [
+        {
+          "label": "Q4_K_M",
+          "server_url": "http://127.0.0.1:8080",
+          "repeat_penalty": 1.0
+        },
+        {
+          "label": "Q8_0",
+          "server_url": "http://127.0.0.1:8081",
+          "repeat_penalty": 1.0
+        }
+      ],
+      "FIXED_BUDGETS": [
+        256,
+        512,
+        1024
+      ],
+      "ADAPTIVE_START_BUDGET": 256,
+      "ADAPTIVE_EXTENSION": 256,
+      "ADAPTIVE_MAX_EXTENSIONS": 1,
+      "FREE_REASONING_BUDGET": 16384,
+      "SERVER_CONTEXT": 32768,
+      "FINAL_ANSWER_BUDGET": 200,
+      "FINAL_ANSWER_BUDGET_INTERVENTION": 200,
+      "REPETITIONS": 2,
+      "TEMPERATURE": 0.6,
+      "TOP_P": 0.95,
+      "REPEAT_PENALTY_DEFAULT": 1.0,
+      "TOP_K": 20,
+      "MIN_P": 0.0,
+      "SEED": 42,
+      "TOLERANCE": 0.01
+    },
+    "sources": {
+      "analyze_results.py": "e2fafccf677040081ac1285268a5afc27f345a3f5307ff53a5a62ff302b82f1b",
+      "compare_conditions.py": "5b88af00a1a79c6f3cec7ae308987a7101a1f2d45d1413af9882d6bc108d155b",
+      "conditions.py": "d2afbf9ebfc16b630766867899feacea9285d35c9c6293db4e39a77a616810d4",
+      "config.py": "e3d34d03d6cfa45a96bb3f838ccbfcee016eb857f4ee737ce7e6ac4155374a2f",
+      "llm_client.py": "7ae4fe5373b31fa4c54f3e303b5bc37205e66968e68a6bec0b323fdecdb9daba",
+      "metrics.py": "72146b30ea63d42987717f8f086c1f8fbf4cb2c777215f8287a29445faaf81eb",
+      "mock_client.py": "2de65a8ef814ed01f254df8197d4a5936d49224682d874fa94c63d60ef2f4e9d",
+      "run_experiment.py": "5435c577f2b4ddf20ed9420f817dd086bbd56d6db21602dd574e235726978a32",
+      "study_analysis.py": "008ac80b7c7ce9b8ed0ffbdfc45f15ddf8950cff5a38612da04bc3f6cf7e71cd",
+      "task_generator.py": "b1f2550c6b4bcf1a27441bc098893b28b7381b31f2f02badbebcda2d0c9f2290"
+    },
+    "environment": {
+      "python": "3.13.15",
+      "packages": {
+        "requests": "2.34.2",
+        "pandas": "3.0.5",
+        "numpy": "2.5.3",
+        "matplotlib": "3.11.2"
+      }
+    },
+    "models": {
+      "repo": "Qwen/Qwen3-8B-GGUF",
+      "revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "files": {
+        "Qwen3-8B-Q4_K_M.gguf": {
+          "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+          "size": 5027783488
+        },
+        "Qwen3-8B-Q8_0.gguf": {
+          "sha256": "408b955510e196121c1c375201744783b5c9a43c7956d73fc78df54c66e883d6",
+          "size": 8709518112
+        }
+      }
+    }
+  },
+  "created_utc": "2026-09-18T08:59:29.243731+00:00",
+  "python": "3.13.15",
+  "expected_results": 2880
+}

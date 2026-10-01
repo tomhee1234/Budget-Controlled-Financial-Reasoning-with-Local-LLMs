@@ -1,0 +1,39 @@
+{
+  "pilot": "results\\pilot_protocol_v3",
+  "elapsed_seconds": 1771.1261593999998,
+  "models": {
+    "Q4_K_M": {
+      "rows": 48,
+      "correct": 16,
+      "missing_answers": 1,
+      "missing_by_condition": {
+        "B_free": 1
+      },
+      "final_token_limits": 0,
+      "adaptive_extensions": 4,
+      "safety_limit_hits": 0,
+      "request_seconds": 953.5780767999959,
+      "generated_tokens": 49880,
+      "main_estimate_hours": 7.946483973333298,
+      "estimate_covers_full_plan": true
+    },
+    "Q8_0": {
+      "rows": 48,
+      "correct": 18,
+      "missing_answers": 1,
+      "missing_by_condition": {
+        "B_free": 1
+      },
+      "final_token_limits": 3,
+      "adaptive_extensions": 3,
+      "safety_limit_hits": 0,
+      "request_seconds": 1770.782839300001,
+      "generated_tokens": 56568,
+      "main_estimate_hours": 14.75652366083334,
+      "estimate_covers_full_plan": true
+    }
+  },
+  "main_estimate_hours": 14.75652366083334,
+  "note": "Small pilot; estimate covers ONLY the observed conditions. Excludes startup; no speed or accuracy guarantee.",
+  "requires_review": []
+}
